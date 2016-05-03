@@ -9,6 +9,11 @@ Recomendación
 -------
 - Hacer uso de una herramienta para automatizar la ejecución del script cada cierto tiempo.
 
+```
+sed -i 's?DIRECTORY?'`pwd`'?' cron
+crontab cron
+```
+
 Licencia
 -------
 
